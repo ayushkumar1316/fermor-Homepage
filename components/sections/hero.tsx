@@ -4,7 +4,7 @@ import { Button } from '@/components/ui/button';
 import { fadeUp, springSnappy } from '@/lib/motion';
 import { useReducedMotion, useMousePosition } from '@/lib/useMousePosition';
 import { useNumberCounter, formatINR } from '@/lib/useNumberCounter';
-import { motion, useMotionValue, useTransform, useSpring } from 'framer-motion';
+import { motion, useTransform, useSpring } from 'framer-motion';
 import { Play } from 'lucide-react';
 
 export function Hero() {
